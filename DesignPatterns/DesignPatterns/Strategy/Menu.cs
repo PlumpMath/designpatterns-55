@@ -17,6 +17,7 @@ namespace Strategy
             _menu.Add(new ItemDoMenu(2, "Facade", new Facade()));
             _menu.Add(new ItemDoMenu(3, "Dependency Injection", new DependencyInfection()));
             _menu.Add(new ItemDoMenu(4, "Proxy", new Proxy()));
+            _menu.Add(new ItemDoMenu(5, "Singleton", new Singleton()));
 
         }
 
